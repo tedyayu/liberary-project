@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(241, 217, 185);
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.thefirst{
+    width: 30%;
+    height: 100%;
+}
+.theSecond{
+    width: 1000px;
+    height: 600px;
+    margin: 30px 20px;
+    background-color: rgb(228, 143, 143);
+}
+.theForm{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 50px 20px;
+    background-color: rgb(108, 108, 218);
+    color: white;
+    display: none;
+}
+.theForm form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.books-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.theNew{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
