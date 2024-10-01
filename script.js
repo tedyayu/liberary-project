@@ -31,12 +31,15 @@ function addBook(){
     let pages=bookPageInput.value;
     let isRead=isreadInput.value;
 
-    let Book = function (title,author,pages,isRead){
-        this.title=title;
-        this.author=author;
-        this.pages=pages;
-        this.isRead=isRead;
+    class Book{
+        constructor (title,author,pages,isRead){
+            this.title=title;
+            this.author=author;
+            this.pages=pages;
+            this.isRead=isRead;
+        }
     }
+    
     let liberary=[];
     let myBook=new Book(title,author,pages,isRead);
     liberary.push(myBook);
