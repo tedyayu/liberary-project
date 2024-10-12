@@ -26,6 +26,7 @@ function cancelForm(){
 
 
 function addBook(){
+    
     let title=bookTitleInput.value;
     let author=bookAuthorInput.value;
     let pages=bookPageInput.value;
@@ -90,7 +91,7 @@ function addBook(){
         isreadInput.value='';
 
     }
-    
+    alert('new book is added');
     
     
 
