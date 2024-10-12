@@ -91,7 +91,7 @@ function addBook(){
         isreadInput.value='';
 
     }
-    alert('new book is added');
+   
     
     
 
