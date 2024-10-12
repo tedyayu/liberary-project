@@ -17,7 +17,7 @@ addBookButton.addEventListener('click',addBook);
 
 
 function displayForm(){
-    theForm.style.display='block';
+    theForm.classList.toggle('show');
 
 }
 function cancelForm(){
